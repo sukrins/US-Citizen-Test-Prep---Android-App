@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizActivity"
+    android:background="@drawable/usa3">
+
+        <TextView
+            android:id="@+id/civicTextView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select any letter below to start the quiz."
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_weight="0.05"
+            android:layout_above="@+id/civicRadioGroup"
+            android:layout_alignParentTop="true"
+            android:background="#d2ffffff"
+            android:textSize="18dp" />
+        <RadioGroup
+            android:id="@+id/civicRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true">
+            <RadioButton
+                android:id="@+id/civicRadio1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="a"
+                android:clickable="true"
+                android:textSize="32dp"
+                android:background="#00ffffff" />
+            <RadioButton
+                android:id="@+id/civicRadio2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="b"
+                android:checked="false"
+                android:clickable="true"
+                android:textSize="32dp"
+                android:background="#00ffffff" />
+            <RadioButton
+                android:id="@+id/civicRadio3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="c"
+                android:checked="false"
+                android:clickable="true"
+                android:textSize="32dp"
+                android:background="#00ffffff" />
+            <RadioButton
+                android:id="@+id/civicRadio4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="d"
+                android:checked="false"
+                android:clickable="true"
+                android:textSize="32dp"
+                android:background="#00ffffff" />
+        </RadioGroup>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/civicButton"
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:layout_weight="0.01"
+            android:text="Enter"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="104dp"
+            android:layout_below="@+id/civicRadioGroup" />
+</RelativeLayout>

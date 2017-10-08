@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Citizenship</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="civic_activity">CivicActivity</string>
+    <string name="n400_activity">N400Activity</string>
+    <string name="vocab_activity">VocabActivity</string>
+    <string name="n400_result_activity">N400Result</string>
+    <string name="civic_result_activity">CivicResult</string>
+
+</resources>

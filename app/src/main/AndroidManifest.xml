@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sukrins.citizenship" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".N400Activity"
+            android:label="@string/n400_activity" >
+            <intent-filter>
+                <action android:name="com.example.sukrins.citizenship.N400Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CivicActivity"
+            android:label="@string/civic_activity" >
+            <intent-filter>
+                <action android:name="com.example.sukrins.citizenship.CivicActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".VocabActivity"
+            android:label="@string/vocab_activity" >
+            <intent-filter>
+                <action android:name="com.example.sukrins.citizenship.VocabActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.sukrins.citizenship.N400Result"
+            android:label="@string/n400_result_activity" >
+        </activity>
+        <activity
+            android:name="com.example.sukrins.citizenship.CivicResult"
+            android:label="@string/civic_result_activity" >
+        </activity>
+    </application>
+
+</manifest>
+
+
